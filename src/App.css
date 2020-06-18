@@ -546,8 +546,83 @@
 
 /*-- Footer ---*/
 #footer-container{
-  margin-top: 30px;
+  margin-top: 200px;
   width: 100%;
-  height: 400px;
-  background-color: rgba(169, 198, 218, 0.397);
+  background-color: rgba(219, 165, 165, 0.315);
+  /* background-color: rgba(169, 198, 218, 0.397); */
+}
+#footer-content{
+  width: 77%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+#col-1-footer{
+  /* background-color: yellow; */
+  margin-top: 70px;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
+#footer-logo{
+  margin-top: -8px;
+  /* background-color: blue; */
+  font-family: 'Yeseva One', cursive;
+  font-weight: 200;
+  font-size: 4vw;
+  color: black;
+}
+#footer-button{
+  /* background-color: red; */
+  margin-top: -15px;
+  width: 50%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer-button p{
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  color: rgba(192, 40, 40, 0.431)
+}
+#footer-button button{
+  width: 35%;
+}
+#col-2-footer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.box-footer{
+  width: 40%;
+}
+.box-footer a{
+  display: block;
+  margin: 20px 0;
+  font-family: 'Red Hat Text', sans-serif;
+}
+.darker{
+  color:black
+}
+.lighter{
+  color: #666666;
+}
+#col-3-footer{
+  margin-top: 40px;
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid rgba(128, 126, 126, 0.315);
+  display: flex;
+  justify-content: space-between;
+}
+#terms-of-service{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+#terms-of-service a{
+  padding:10px;
+  color:#999999;
+  font-family: 'Red Hat Text', sans-serif;
 }
